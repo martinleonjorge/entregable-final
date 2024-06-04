@@ -8,7 +8,7 @@ const { Pool } = require("pg");
 
 //configurar la conexion a la base de datos postgreSQL
 const pool = new Pool({
-    user: 'admin',
+    user: 'belleza_plus_er_22nu_user',
     host: 'dpg-cpfng2btg9os73bhr4l0-a',
     database: 'belleza_plus_er_22nu',
     password: 'k6W6fKoMnR1IbD4BQpcGy1tKdCSGYlCB',
