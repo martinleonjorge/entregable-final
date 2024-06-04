@@ -46,11 +46,11 @@ pool.connect((err) => {
 // Middleware para parsear JSON
 app.use(express.json());
 
-app.get('entregable-final/', (req, res) => {
+app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get('entregable-final/login', (req, res) => {
+app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, 'login.html'));
 });
 
@@ -104,11 +104,11 @@ app.post('/signup', (req, res) => {
 });
 
 app.get('/signup', (req, res) => {
-    res.sendFile(path.join(__dirname, 'entregable-final/signup.html'));
+    res.sendFile(path.join(__dirname, '/signup.html'));
 });
 
 app.get('/indexAlex', (req, res) => {
-    res.sendFile(path.join(__dirname, 'entregable-final/indexAlex.html'));
+    res.sendFile(path.join(__dirname, '/indexAlex.html'));
 });
 
 app.get('/logout', (req, res) => {
