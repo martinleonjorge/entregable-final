@@ -46,12 +46,12 @@ pool.connect((err) => {
 // Middleware para parsear JSON
 app.use(express.json());
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'entregable-final/index.html'));
+app.get('entregable-final/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get('/login', (req, res) => {
-    res.sendFile(path.join(__dirname, 'entregable-final/login.html'));
+app.get('entregable-final/login', (req, res) => {
+    res.sendFile(path.join(__dirname, 'login.html'));
 });
 
 app.post('/login', (req, res) => {
