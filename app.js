@@ -9,9 +9,9 @@ const { Pool } = require("pg");
 //configurar la conexion a la base de datos postgreSQL
 const pool = new Pool({
     user: 'admin',
-    host: 'dpg-cpf0nfn109ks73bbn4r0-a',
-    database: 'belleza_plus_er',
-    password: 'uRLOh5N74zOh5GlMiHFulw9UKWEq6SHE',
+    host: 'dpg-cpfng2btg9os73bhr4l0-a',
+    database: 'belleza_plus_er_22nu',
+    password: 'k6W6fKoMnR1IbD4BQpcGy1tKdCSGYlCB',
     port: 5432, //Puerto predeterminado de postgreSQL
 });
 
