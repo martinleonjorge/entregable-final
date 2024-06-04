@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="css/img/LabialMora.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="css/estilos.css">
+      <script src="js/carrito.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--script-->
+    <title>Belleza Plus</title>
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
+rel="stylesheet"
+/>
+</head>
+<body style="background-image: url(css/img/degrade\ morado.jpg); background-position: center; background-size: cover;">
+    <header>
+        
+        <!-- Navbar -->
+        
+        <nav class="navbar navbar-expand-lg bg-body">
+          <div class="container-fluid">
+              <img src="/css/img/LabialMora.jpg" alt="Logo" width="100" height="90" class="d-inline-block align-text-top">
+            
+                        <button
+                        data-mdb-collapse-init
+                        class="navbar-toggler"
+                        type="button"
+                        data-mdb-target="#navbarExample01"
+                        aria-controls="navbarExample01"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <i class="fas fa-bars"></i>
+                      </button>
+                      
+                      <div class="collapse navbar-collapse" id="navbarExample01">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item active">
+<!--AQUÍ INICIA EL MENU --------------------------------------------------------------------------------->
+
+
+                  <a class="nav-link  btn-outline-light" aria-current="page" href="indexAlex.html">Inicio</a>
+                  <!--LINEA DE INICIO CON NOVEDAD EN (ARIA-CURRENT - REVISAR!)-->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="https://catalogodigital.somosbelcorp.com/CO">Nuestros Aliados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="indexAlex.html">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="index.html#suscribete">Suscribete</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="#contactanos">Contáctanos</a>
+                </li>
+<!--AQUI TERMINA EL MENU DE OPCIONES---------------------------------------------------------------------->
+                <!--PARA EL BOTON RECUADRO SE USÓ: (btn-outline-light) OPCIONAL-->
+<!--SE AGREGO UN BUSCADOR---------------------------------------------------------------------------------->
+                <section class="buscar">
+                <div class="input-group">
+                  <div class="form-outline" data-mdb-input-init>
+                    <input type="search" id="form1" class="form-control" />
+                    <label class="form-label" for="form1">Buscar</label>
+                  </div>
+                  
+                </div>
+              </section>
+              <button type="button" class="lupa" class="btn"  data-mdb-ripple-init>
+                <i class="fas fa-search"></i>
+              </button>
+              <li class="icono-header">
+                <a class= "nav-link" href="/login.html" style="color: #0e0d0e;">
+                  <i class="fas fa-user"></i>
+                </a>
+                </li>
+              <section>          
+                <div class="text-center">
+                <button id="logout" data-mdb-ripple-init type="submit" class="botonGeneral btn" href="login.html" >Cerrar sesión</button>
+               </div>     
+               </section>  
+              <li class="icono-header">
+              <a class= "nav-link" href="/carrito.html" style="color: #0e0d0e;">
+                <i class="fas fa-basket-shopping"></i>
+              </a>
+              </li> 
+              
+              
+               
+              
+              
+            </ul>
+          </div>
+          </div>
+        </div>
+        
+      </nav>
+
+    </header>
+<!--AQUI CERRAMOS EL HEADER (ES IMPORTANTE REVISAR SI FUNCIONA EN ESTA LINEA!!!)-->
+
+
+<!--AQUI INICIA EL CARRITO DE COMPRAS)----------------------------------------->
+
+    <!--Inicio de una sección con la clase "contenedor".-->
+    <p class="subtituloZoomCarrito">Recibe 30% OFF + ENVÍO GRATIS En tu primera compra cupón BIENVENIDO</p>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <!-- Inicio de un elemento en el contenedor.-->
+            <div class="item">
+                <!--span es un elemento de marcado utilizado para aplicar estilos o agrupar contenido en línea dentro de un documento HTML.-->
+                <!--Un elemento de texto con la clase "titulo-item" que muestra el título "Box Engasse".-->
+                
+                <!--Una imagen con la ruta de origen "img/boxengasse.png", un atributo alternativo vacío y la clase "img-item".-->
+                <img src="css/img/LabialIcono.webp" alt="" class="img-item">
+                <span class="titulo-item">Labial rojo encantador</span>
+                <!--Un elemento de texto con la clase "precio-item" que muestra el precio "$15.000".-->
+                <span class="precio-item">$16.800</span>
+                <!-- Un botón con la clase "boton-item" que muestra el texto "Agregar al Carrito".-->
+                <button class="boton-item">Agregar</button>
+            </div>
+            <div class="item">                
+                <img src="css/img/SombrasCC.jpg" alt="" class="img-item">               
+                <span class="titulo-item">Sombras Night</span>
+                <span class="precio-item">$24.000</span>
+                <button class="boton-item">Agregar</button>
+            </div>
+            <div class="item">                
+                <img src="css/img/delineador.jpg" alt="" class="img-item">
+                <span class="titulo-item">Delineador rojo candela</span>
+                <span class="precio-item">$15.000</span>
+                <button class="boton-item">Agregar</button>
+            </div>
+            <div class="item">                
+                <img src="css/img/polvos.jpg" alt="" class="img-item">
+                <span class="titulo-item">Polvos compactos canela</span>
+                <span class="precio-item">$22.900</span>
+                <button class="boton-item">Agregar</button>
+            </div>
+            <div class="item">                
+              <img src="css/img/combo2.jpg" alt="" class="img-item">
+              <span class="titulo-item">Combo plus skin</span>
+              <span class="precio-item">$75.000</span>
+              <button class="boton-item">Agregar</button>
+          </div>
+
+          <div class="item">                
+            <img src="css/img/combo1.jpg" alt="" class="img-item">
+            <span class="titulo-item">Combo plus</span>
+            <span class="precio-item">$75.000</span>
+            <button class="boton-item">Agregar</button>
+        </div>
+
+        <div class="item">                
+          <img src="css/img/mascaraYellow.jpg" alt="" class="img-item">
+          <span class="titulo-item">Mascara mega negro</span>
+          <span class="precio-item">$25.000</span>
+          <button class="boton-item">Agregar</button>
+      </div>
+
+      <div class="item">                
+        <img src="css/img/fijador.jpg" alt="" class="img-item">
+        <span class="titulo-item">fijador pro</span>
+        <span class="precio-item">$30.000</span>
+        <button class="boton-item">Agregar</button>
+    </div>
+
+    <div class="item">                
+      <img src="css/img/Labial.jpg" alt="" class="img-item">
+      <span class="titulo-item">Labial color salmon</span>
+      <span class="precio-item">$75.000</span>
+      <button class="boton-item">Agregar</button>
+  </div>
+
+  <div class="item">                
+    <img src="css/img/Tratamiento.jpg" alt="" class="img-item">
+    <span class="titulo-item">Tratamiento Premium</span>
+    <span class="precio-item">$75.000</span>
+    <button class="boton-item">Agregar</button>
+</div>
+            
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2 >Tu Carrito</h2>
+            </div>
+
+            <div style="background-color: white" class="carrito-items"> 
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>  
+
+<!--AQUI FINALIZA EL CARRITO DE COMPRAS)----------------------------------------->
+
+
+
+<!-- Footer -->
+      <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Links  -->
+    
+        <h2 class="textoSecciones" id="contactanos">contáctanos</h2>
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          
+          <div  class="container text-center text-md-start ">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Belleza Plus
+                </h6>
+                <p>
+                    Somos una empresa de belleza con más de 50 años de experiencia en el cuidado de la piel e imagen personal.
+                    Impulsamos belleza para lograr un estilo unico y personal.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Productos
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Maquillaje</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Tratamiento facial</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Cuidado personal</a>
+                  </p>
+                <p>
+                  <a href="#!" class="text-reset">Fragancias</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Bisuteria</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Soporte
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Nuestras tiendas</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Preguntas frecuentes</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Terminos y condiciones</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Ayuda</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contáctanos</h6>
+                <p><i class="fas fa-home me-3"></i> Bogotá, Colombia 10012, Col</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@bellezaplus.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 601 222 3344</p>
+                <p><i class="fas fa-print me-3"></i> + 601 222 4455</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(206, 42, 151, 0.05);">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BELLEZAPLUS.COM</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+
+
+     
+        
+    
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="js/carrito.js"></script>  
+</body>
+</html>
+    
+    </body>
+    </html>

@@ -1,0 +1,115 @@
+
+/* INICA ESTILOS ENCABEZADOS CRUD -------------------------------------------------------------------------------------*/
+.encabezado {
+  display: flex; /* Flexbox para alinear los elementos en la misma línea */
+  align-items: center; /* Centra verticalmente los elementos */
+  background-color: hsl(0, 11%, 98%); 
+  padding: 10px; 
+}
+
+
+/*ESTILO PARA ENCABEZADO*/
+/*.contenedor_h1_Bell {
+ /* width: 100%; 
+ /* margin: 0 auto; /* Centra el contenedor horizontalmente */
+  /*background-image: url('./img/Imagen-principal1.jpg');
+  /*background-size: cover; /* Ajusta la imagen de fondo para que cubra todo el contenedor */
+  /*height: 1500px; /* Altura de la imagen de fondo */
+  /*position: relative;
+  background-position: bottom;
+  align-items: center;
+}*/
+
+/* ESTILO PARA NOMBRE DE LA PAGINA*/
+.titulo_h1_Bell {
+  color: rgb(243, 106, 243);
+  font-size: 34px; 
+  text-align: center; /* Centra el texto horizontalmente */
+  position: absolute; /*  Ubica el título dentro del contenedor */
+  top: 50%; /* Coloca el título en el centro vertical */
+  left: 50%; /* Coloca el título en el centro horizontal */
+  transform: translate(-50%, -50%); /* Centra el título correctamente */
+}
+/* FIN ESTILO ENCABEZADOS CRUD -------------------------------------------------------------------------------------------*/
+
+/* ESTILO PARA EL TITULO PRINCIPAL*/
+  h1 {
+    text-align: center;
+  }
+  
+/* ESTILO PARA LA TABLA DE USUARIOS*/ 
+  #table-container {
+    margin-top: 50px; 
+    display: flex;
+    justify-content: center;
+    width: 100%;  
+    
+    
+  }
+  
+  /* ESTILO PARA LOS DATOS DE USUARIOS*/
+  #data-table {
+    border-collapse: collapse;
+    width: 60%; 
+    border: 2px solid black;
+    
+    
+  }
+  
+  /* ESTILO PARA LAS COLUMNAS Y FILAS*/
+  #data-table th, #data-table td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+    
+    
+  }
+  
+  /* ESTILO PARA TITULO  (ID - NOMBRE - CORREO)*/
+  #data-table th {
+    background-color: rgb(169, 93, 169);
+    font-size: 19px;
+    color: white;
+    text-align: center;
+  }
+  
+/* ESTILO PARA CADA LINEA DE USUARIO INTERCALADO*/
+  #data-table tr:nth-child(even) {
+    background-color: white;
+    
+    
+    
+  }
+  
+  /* ESTILO PARA CADA RENGLON AL CAMBIAR DE COLOR AL PASAR SOBRE LA LINEA*/
+  #data-table tr:hover {
+    background-color: rgb(194, 155, 194);
+    color: white;
+  }
+  
+  /* ESTILO PARA EL MENU DE ADMIN*/
+  a {
+    text-decoration: none;
+    color: rgb(178, 16, 178);
+    
+  }
+  
+  /* ESTILO PARA CADA BOTON DEL MENU ADMIN */
+  a:hover {
+    text-decoration: underline;
+    
+  }
+
+  .botonesMenu{
+    display: flex;
+    width: 100%;
+    justify-content: center;    
+    gap: 2%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+  }

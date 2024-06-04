@@ -1,0 +1,576 @@
+/* ACA INICIA LOS ESTILOS DE INDEX.HTML>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+/* ESTILO ICONO PARA ENCABEZADO DE LA PAGINA*/
+.iconoEncabezado{
+width:6%;
+height:6% ;
+  }
+
+/*.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: aqua;
+  padding: 10px 0;
+
+} SE CREO UN IDENTIFICADOR PARA QUE EL MENU SE DESPLACE HACIA ABAJO (NO FUNCIONA-REVISAR!!)*/ 
+ 
+
+/* ESTILO DE LA LUPA DEL BUSCADOR*/
+.lupa {
+  background-color: white;    
+  /*margin-right:  10px;*/
+  height: 37px;
+  border: groove;
+  border-radius: 5px;
+  
+}
+
+
+
+.icono-header{
+  margin-left: 0px;
+  font-size: 25px;
+   
+}
+
+/* Estilo del subtitulo de (GALERIA - SUSCRIBETE - NOSOTROS - CONTACTANOS)*/
+.textoSecciones {  
+  margin-top: 2%;  
+  text-shadow: 3px 3px 5px rgba(71, 65, 70, 0.5);  
+  font-size: 24px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  background-color: #d8ced6;
+  padding: 12px 12px;
+  border-radius: 5px;  
+}
+
+
+.form-check-input {
+  accent-color: rgb(141, 25, 141) !important;
+}
+
+
+/* Estilos para el subtitulo (Porque tú mereces lo mejor*/
+.textDescriptionH3{
+  text-align: center; 
+  color: #a0137b;
+  text-shadow: 3px 3px 5px rgba(16, 11, 15, 0.5);
+}
+
+/* Estilos para el subtitulo (¡Tu lienzo, nuestra inspiración. ¡Maquíllate con nosotros!*/
+.textDescriptionH5{
+  text-align: center;
+  color: #1a1819;
+}
+
+/* ESTILO DEL BOTON COMPRAR*/
+.botonGeneral {
+  --mdb-btn-bg: rgb(169, 93, 169) !important; 
+    --mdb-btn-color: #fff !important;    
+    --mdb-btn-hover-bg: rgb(95, 52, 95);
+    --mdb-btn-hover-color: #fff;
+    --mdb-btn-box-shadow-state: 0 8px 9px -4px rgba(0, 0, 0, 0.3), 0 4px 18px 0 rgba(21, 21, 22, 0.2);
+    border-radius: 20px;    
+}
+
+/* ESTILO DEL BOTON REGISTRARME*/
+.botonRegistrarme{
+  --mdb-btn-bg: rgb(141, 25, 141) !important; 
+    --mdb-btn-color: #fff !important;    
+    --mdb-btn-hover-bg: rgb(95, 52, 95);
+    --mdb-btn-hover-color: #fff;
+    --mdb-btn-box-shadow-state: 0 8px 9px -4px rgba(0, 0, 0, 0.3), 0 4px 18px 0 rgba(21, 21, 22, 0.2);
+}
+
+/* ESTILO DEL FORMULARIO INICIAL*/
+.formulario {
+  max-width :25% ;
+  text-align:-webkit-center;
+}
+
+
+/*AQUI COMIENZA EL ESTILO PARA EL CARRUSEL (GALERIA)*/
+
+/*Estilo para los botones de deslizar en el carrusel*/
+.botonDeslizar{
+ color: rgb(141, 25, 141) !important;
+}
+
+
+.carouselExampleInterval {
+    max-width: auto; /* Ancho máximo del carousel */
+    margin: 0 auto; /* Centra el carousel horizontalmente */
+  }
+
+.carousel-inner .carousel-item img {
+    max-height: 500px; /* Altura máxima de las imágenes del carousel */
+    object-fit: cover; /* Ajusta el tamaño de las imágenes sin deformarlas */
+  }
+
+
+.fancy-heading small.text-muted {
+  color: #6c757d; /* Color de texto secundario */
+}
+ /* Default height for small devices */
+ .intro-example {
+  height: 400px;
+}
+
+/* Estilos para el "Nosotros"*/
+.fotos-nosotros {
+  width: 100%;
+  height: 70%; 
+  border-radius: 10px; 
+  object-fit: cover;
+}
+/* Estilos para el nombre "Nosotros"*/
+.nombre-nosotros {
+  margin-top: 10px; 
+  color: #333; 
+  font-size: 1.5rem; 
+  margin-bottom: 1rem; 
+  text-align: center;
+}
+/* Estilos para la foto "Nosotros"*/
+.descripcion-foto {
+  margin-top: 5px; 
+  color: #333; 
+  font-size: 1.0rem; 
+  text-align: center;
+}
+/* Estilos para el contenedor mayor "Nosotros"*/
+.contenedor-mayor{
+  display: grid; 
+  grid-template-columns: repeat(5, 1fr); 
+  grid-gap: 20px;
+  height: 60%;
+  width: 1200px;
+  margin-left: 73px;
+}
+/* Estilos para el contenedor "Nosotros"*/
+.contenedorNosotros{
+  transition: transform 0.3s ease-in-out; 
+  background-color: #f0f0f0; 
+  border-radius: 10px; 
+  padding: 20px; 
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
+  height: 400px; 
+  margin-bottom: 20px;
+  
+  
+  
+}
+/*AQUI TERMINA EL ESTILO PARA EL CARRUSEL (GALERIA)*/
+
+
+
+
+ /* Estilos para dispositivos con una altura mayor a 992px */
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  #intro-example {
+    height: 600px;
+  }
+}
+
+
+
+/*ESTILOS CAJA FORMULARIO (Login - Registro*/
+section form{
+    margin-left: 29%;
+    color: #080808;
+    padding: 1.5em;
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    border-radius: 20px;
+    border: 4px solid rgba(162, 123, 143, 0.1);
+    /*box-shadow: 10px 30px 10px 4px rgb(169, 147, 169) !important;*/
+}  
+
+ 
+
+/* Estilo para la caja del correo de suscripción */
+.form5Example2{
+  border: 2px solid rgb(141, 25, 141) !important;
+  width: 100%;
+  
+
+}
+
+.form5Example3{
+  margin-left: 0%;
+
+}
+
+.subtituloZoom { 
+  font-size: 25px;
+  color: rgb(150, 16, 150);
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  animation: pulse 1s infinite alternate;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@keyframes pulse {
+  from { transform: scale(1); }
+  to { transform: scale(1.05); }
+}
+
+/*Estilo titulo(Inicia sesion)
+  
+.textoIniciarSesion{
+    margin-top: 100%;
+    color: #00ff33;
+  }*/
+
+  /*ESTILOS PARA LOS TITULOS LOGUIN-REGISTRO (H2)*/
+  .titulosForm{
+    text-align:center;
+    width: 100%;
+    margin-bottom: 1em;
+    margin-top: 5%;
+    font-size: 25%;
+    color: rgb(169, 32, 169) !important;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+     
+  }
+  
+/*ESTILOS PARA LA SECCION CORREO Y CONTRASEÑA*/
+section form input{
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.8em;
+  border-radius: 9px;
+  border: none;
+  outline-color: #8b4279;
+  background-color: #eee;
+}
+
+
+/*ESTILOS PARA EL BOTON (INICIA SESION-FORMULARIO)*/
+section form input[type='submit']{
+  margin-top: 1.5em;
+  background-color: #a26096;
+  color: #ffffff;
+  transition: var(--transition);
+} 
+
+/*ESTILO PARA (¿No tienes un cuenta?)*/
+.noTienesCuenta{
+  font-size: 18px;
+  margin-top: 1.5em;
+  margin-left: 34%;
+  color: white;
+}
+
+/*ESTILO PARA BOTON REGISTRARSE (FORMULARIO)*/
+.botonRegistrarse{
+  margin-left: 20px;  
+}
+
+/*ESTILOS PARA EL PARRAFO (Iniciar sesion con:)*/
+.textoIniciarCon{
+text-align: center;
+font-size: 18px;
+margin-left: 0px;
+color: white;
+
+}
+
+/*ESTILOS PARA ICONOS REDES SOCIALES*/
+.iconosRedes{
+display: flex;
+justify-content: center;
+
+}
+/*AQUI TERMINA EL ESTILO DEL FORMULARIO INICIAR SESION+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*AQUI INICIA EL ESTILO DEL FORMULARIO REGISTRARME+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+/*ESTILO PARA: ¿Ya tienes una cuenta?*/
+.textoPregunta{
+  font-size: 16px;
+  margin-top: 1.5em;
+  text-align: center;
+  color: white
+}
+
+/*ESTILO PARA (inicia sesión desde el registro*/
+.textoIniciar{
+  text-decoration: none;  
+  color: rgb(169, 32, 169) !important;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/*ESTILO PARA SECCIÓN DEL CARRITO+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++/
+
+/* ESTILOS CARRITO DE COMPRAS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Titillium+Web:wght@200;300;400;600;700&display=swap');*{
+  margin: 0;
+  padding:0;
+  font-family: 'roboto';
+}
+
+/*
+.header{
+  background: url(img/header.jpg);
+  background-size: cover;
+  background-position:center;
+  height: 300px;
+}
+header h1{
+  text-align: center;
+  font-size: 35px;
+  /* background-color: #000; */
+ /* color: #fff;
+  padding: 30px 0;
+}
+*/
+.subtituloZoomCarrito { 
+  font-size: 27px;
+  color: rgb(231, 216, 231);
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(179, 51, 179, 0.5);
+  animation: pulse 1s infinite alternate;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+
+}
+
+.contenedor{
+  max-width: 1200px;
+  height: 1100px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  
+  
+  /* oculto lo que queda fuera del .contenedor */
+  contain: paint;
+  
+} 
+/* SECCION CONTENEDOR DE ITEMS */
+.contenedor .contenedor-items{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap:30px;
+  grid-row-gap: 30px;
+  /* width: 60%; */
+  width: 100%;
+  transition: .3s;
+  
+}
+.contenedor .contenedor-items .item{
+  max-width: 200px;
+  margin: auto;
+  border: 1px solid #666;
+  border-radius: 10px;
+  padding: 20px;
+  transition: .3s;
+  background-color: white;
+}
+.contenedor .contenedor-items .item .img-item{
+  width: 100%;
+  object-fit: cover;
+}
+.contenedor .contenedor-items .item:hover{
+  box-shadow: 0 0 10px #666;
+  scale: 1.05;
+}
+.contenedor .contenedor-items .item .titulo-item{
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  /*text-transform: uppercase; AQUI CAMBIAMOS LA LETRA A MAYUSCULA*/
+}
+.contenedor .contenedor-items .item .precio-item{
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.contenedor .contenedor-items .item .boton-item{
+  display: block;
+  margin: 10px auto;
+  border: none;
+  background-color: rgb(141, 25, 141) !important;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* seccion carrito */
+.carrito{
+  border: 1px solid #666;
+  width: 35%;
+  margin-top: 30px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: auto;
+  position: sticky !important;
+  top: 0;
+  transition: .3s;
+  /* Estilos para ocultar */
+  margin-right: -100%;
+  opacity: 0;
+}
+.carrito .header-carrito{
+  background-color: #a8287dbe;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+.carrito .carrito-item{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  position: relative;
+  border-bottom: 1px solid #666;
+  padding: 20px;
+}
+.carrito .carrito-item img{
+  margin-right: 20px;
+  
+
+}
+.carrito .carrito-item .carrito-item-titulo{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  /*text-transform: uppercase; AQUI CAMBIAMOS LA LETRA A MAYUSCULA*/
+}
+.carrito .carrito-item .selector-cantidad{
+  display: inline-block;
+  margin-right: 25px;
+}
+.carrito .carrito-item .carrito-item-cantidad{
+  border: none;
+  font-size: 18px;
+  background-color: transparent;
+  display: inline-block;
+  width:30px;
+  padding: 5px;
+  text-align: center;
+}
+.carrito .carrito-item .selector-cantidad i{
+  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.carrito .carrito-item .carrito-item-precio{
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.carrito .carrito-item .btn-eliminar{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #000;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #000;
+  cursor: pointer;
+  display: block;
+  background: transparent;
+  z-index: 20;
+}
+.carrito .carrito-item .btn-eliminar i{
+  pointer-events: none;
+}
+
+.carrito-total{
+  background-color: #c5c0c5;
+  padding: 30px;
+}
+.carrito-total .fila{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  
+}
+.carrito-total .btn-pagar{
+  display: block;
+  width: 100%;
+  border: none;
+  background: rgba(7, 7, 7, 0.894) !important;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: .3s;
+  
+}
+.carrito-total .btn-pagar:hover{
+  scale: 1.05;
+}
+
+/* SECCION RESPONSIVE */ 
+@media screen and (max-width: 850px) {
+  .contenedor {
+    display: block;
+  }
+  .contenedor-items{
+      width: 100% !important;
+  }
+  .carrito{
+      width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

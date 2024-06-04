@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="icon" href="/css/img/LabialMora.jpg">
+  <link rel="stylesheet" href="/css/styles.css"> <!-- ESTA LINEA SE USA PARA DAR ESTILO AL ADMIN  -->
+  <title>Belleza Plus</title>
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body style="background-color: rgb(232, 218, 232);">
+  <!--ENCABEZADO DEL ADMIN -->
+  <div id= "bellezaPlus" class="p-5 text-center bg-image" style="background-image: url('css/img/ImagenAdmin.jpg');
+            height: 600px;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+      <div class="">
+        <h1 style="color: rgb(173, 83, 167); margin-top: 10%; font-size: 90px;">Belleza Plus</h1>
+        <br>
+        <a data-mdb-ripple-init class="btn btn-outline-light btn-lg" href="#table-container" role="button"
+              id="">Consulta de Usuarios</a>   
+              <!--SE AGREGO UN ICONO HOME QUE REDIRECCIONA AL indexAlex.html-->
+        <li class="icono-header">
+          <a class="nav-link" href="/indexAlex.html" style="color: white">
+            <i class="fas fa-home"></i>
+        </li>
+        <br>
+        <div class="botonesMenu">
+          <a class="botonGeneral btn" href="/post.html">Agregar Usuario</a>
+          &nbsp;&nbsp;&nbsp;
+          <a class="botonGeneral btn" href="/put.html">Actualizar Datos</a>
+          &nbsp;&nbsp;&nbsp;
+          <a class="botonGeneral btn" href="/delete.html">Eliminar Usuario</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--<div class="encabezado">
+    <img src="/css/img/LabialMora.jpg" alt="Logo" width="100" height="90" class="d-inline-block align-text-top">   
+
+    <div class="contenedor_h1_Bell">        
+        <div class="titulo_h1_Bell">Belleza Plus</div>
+    </div>
+  </div>-->
+  <!--AQUI TERMINA EL ENCABEZADO DEL ADMIN -->
+
+
+  <!--OPCION DE BOTON PARA REDIRECCIONAR AL HOME 
+  <li class="icono-header">
+    <a class="nav-link" href="/login.html" style="color: #0e0d0e;">
+      <i class="fas fa-cart-shopping"></i>
+    </a>
+  </li>-->
+  <!--<h1 class="textDescriptionH3 " style="color: black; margin-top: 2%;">Consulta de Usuarios</h1>-->
+
+  <div id="table-container">
+    <table id="data-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>NOMBRE</th>
+          <th>CORREO</th>
+        </tr>
+      </thead>
+      <tbody id="data">
+        <!-- Los datos se insertarán aquí dinámicamente -->
+      </tbody>
+    </table>
+    <br>
+  </div>
+  <div class="botonesMenu">
+    <!--<a class="botonGeneral btn" href="/post.html">Agregar Usuario</a>-->
+    &nbsp;&nbsp;&nbsp;
+    <a class="botonGeneral btn" href="#bellezaPlus">Volver arriba</a>
+    &nbsp;&nbsp;&nbsp;
+    <!--<a class="botonGeneral btn" href="/delete.html">Eliminar Usuario</a>-->
+  </div>
+  <div class="text-center p-4" style="background-color: rgba(33, 144, 70, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BELLEZAPLUS.COM</a>
+  </div>
+</body>
+<script src="/js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="css/styles.css">-->
+    <link rel="icon" href="css/img/LabialMora.jpg">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--script-->
+    <title>Belleza Plus</title>
+    <!-- Font Awesome -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.min.css"
+rel="stylesheet"
+/>
+</head>
+<body style=" background-size: cover; background-position: center; background-repeat: no-repeat; background-image: url(css/img/degrade\ morado.jpg) ;">
+    <header>
+        
+        <!-- Navbar -->
+        
+        <nav class="navbar navbar-expand-lg bg-body">
+          <div class="container-fluid">
+              <img src="/css/img/LabialMora.jpg" alt="Logo" width="100" height="90" class="d-inline-block align-text-top">
+            
+                        <button
+                        data-mdb-collapse-init
+                        class="navbar-toggler"
+                        type="button"
+                        data-mdb-target="#navbarExample01"
+                        aria-controls="navbarExample01"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                      >
+                        <i class="fas fa-bars"></i>
+                      </button>
+                      
+                      <div class="collapse navbar-collapse" id="navbarExample01">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item active">
+<!--AQUÍ INICIA EL MENU --------------------------------------------------------------------------------->
+
+
+                  <a class="nav-link  btn-outline-light" aria-current="page" href="index.html">Inicio</a>
+                  <!--LINEA DE INICIO CON NOVEDAD EN (ARIA-CURRENT - REVISAR!)-->
+                </li>                
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="https://catalogodigital.somosbelcorp.com/CO">Nuestros Aliados</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="index.html#galeria">Galeria</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="#nosotros">Nosotros</a>
+                </li>                
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="index.html#suscribete">Suscribete</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link btn-outline-light" href="#contactanos">Contáctanos</a>
+                </li>
+<!--AQUI TERMINA EL MENU DE OPCIONES---------------------------------------------------------------------->
+                <!--PARA EL BOTON RECUADRO SE USÓ: (btn-outline-light) OPCIONAL-->
+<!--SE AGREGO UN BUSCADOR---------------------------------------------------------------------------------->
+                <section class="buscar">
+                <div class="input-group">
+                  <div class="form-outline" data-mdb-input-init>
+                    <input type="search" id="form1" class="form-control" />
+                    <label class="form-label" for="form1">Buscar</label>
+                  </div>
+                  
+                </div>
+              </section>
+              <button type="button" class="lupa" class="btn"  data-mdb-ripple-init>
+                <i class="fas fa-search"></i>
+              </button>
+              <!--ICONO USUARIO-->
+              
+              <li class="icono-header">
+                <a class="nav-link" href="/login.html" style="color: #0e0d0e"> 
+                  <i class="fas fa-user"></i>
+                </a>
+              </li>
+                  <!--FIN ICONO USUARIO-->
+
+                  <!--BOTON INICIAR SESION-->
+                  <section> 
+                    <div class="text-center">
+                      <a class="nav-link" href="/login.html" style="color: #0e0d0e;">
+                  <button data-mdb-ripple-init type="submit" class="botonGeneral btn" href="login.html">Iniciar sesión</button>             
+                  </a>
+              </div>     
+              </section> 
+              <!--SE CIERRA BOTON INICIAR SESION-->
+              
+              <!--ICONO CARRITO-->
+              <li class="icono-header">
+                <a class= "nav-link" href="/login.html" style="color: #0e0d0e;">
+                  <i class="fas fa-cart-shopping"></i>
+                </a>
+                </li> 
+              <!--FIN ICONO CARRITO-->             
+              
+            </ul>
+          </div>
+          </div>
+        </div>
+        
+      </nav>
+
+      <!-- Se realiza el código para la sección Nosotros donde hablaremos de los integrantes del grupo 8 -->
+
+  <h5 class="textoSecciones" style= "text-align: center;" id="nosotros">Nuestro equipo</h5>
+  <br>
+
+  <section class="contenedor-mayor">
+    <div class="contenedorNosotros">
+      <img src="css/img/Murillo.png" alt="Descripción de la imagen" class="fotos-nosotros">
+      <h2  class="nombre-nosotros">Andrea Murillo</h2>
+      <p class="descripcion-foto">Project Manager</p>
+    </div>
+    <div class="contenedorNosotros">
+      <img src="css/img/Nicol.png" alt="Descripción de la imagen" class="fotos-nosotros">
+      <h2 class="nombre-nosotros">Karol Alfonso</h2>
+      <p class="descripcion-foto">Software Tester.</p>
+    </div>
+       <div class="contenedorNosotros">
+      <img src="css/img/Sandra2.png" alt="Descripción de la imagen" class="fotos-nosotros">
+      <h2 class="nombre-nosotros">Sandra Mora</h2>
+      <p class="descripcion-foto">IT Manager</p>
+    </div>     
+    <div class="contenedorNosotros">
+      <img src="css/img/Andres.png" alt="Descripción de la imagen" class="fotos-nosotros">
+      <h2 class="nombre-nosotros">Andrés Correa</h2>
+      <p class="descripcion-foto">Systems analyst</p>
+    </div>
+    <div class="contenedorNosotros">
+      <img src="css/img/Roa.jpeg" alt="Descripción de la imagen" class="fotos-nosotros">
+      <h2 class="nombre-nosotros">Andrea Roa</h2>
+      <p class="descripcion-foto">Desing UX/UI</p>
+    </div>
+  
+  </section>
+  
+  <!-- Termina sección Nosotros-->
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- Section: Links  -->
+    
+        <h2 class="textoSecciones" id="contactanos">Contáctanos</h2>
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          
+          <div  class="container text-center text-md-start ">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Belleza Plus
+                </h6>
+                <p>
+                    Somos una empresa de belleza con más de 50 años de experiencia en el cuidado de la piel e imagen personal.
+                    Impulsamos belleza para lograr un estilo unico y personal.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Productos
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Maquillaje</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Tratamiento facial</a>
+                </p>
+                <p>
+                    <a href="#!" class="text-reset">Cuidado personal</a>
+                  </p>
+                <p>
+                  <a href="#!" class="text-reset">Fragancias</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Bisuteria</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Soporte
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Nuestras tiendas</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Preguntas frecuentes</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Terminos y condiciones</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Ayuda</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contáctanos</h6>
+                <p><i class="fas fa-home me-3"></i> Bogotá, Colombia 10012, Col</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@bellezaplus.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 601 222 3344</p>
+                <p><i class="fas fa-print me-3"></i> + 601 222 4455</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(206, 42, 151, 0.05);">
+          © 2024 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">BELLEZAPLUS.COM</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.2.0/mdb.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/client.js"></script>
+    
+    </body>
+    </html>
