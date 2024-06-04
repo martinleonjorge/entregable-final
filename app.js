@@ -47,11 +47,11 @@ pool.connect((err) => {
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/index.html'));
+    res.sendFile(path.join(__dirname, 'entregable-final/index.html'));
 });
 
 app.get('/login', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/login.html'));
+    res.sendFile(path.join(__dirname, 'entregable-final/login.html'));
 });
 
 app.post('/login', (req, res) => {
@@ -104,11 +104,11 @@ app.post('/signup', (req, res) => {
 });
 
 app.get('/signup', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/signup.html'));
+    res.sendFile(path.join(__dirname, 'entregable-final/signup.html'));
 });
 
 app.get('/indexAlex', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/indexAlex.html'));
+    res.sendFile(path.join(__dirname, 'entregable-final/indexAlex.html'));
 });
 
 app.get('/logout', (req, res) => {
